@@ -2,9 +2,7 @@ import React from 'react'
 
 const Customizer = () => {
   return (
-    <div>
-      
-    </div>
+    <div>Customizer</div>
   )
 }
 

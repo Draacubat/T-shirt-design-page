@@ -2,13 +2,19 @@ import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './index.css'
 
+import Canvas from './canvas';
+import Customizer from './pages/Customizer';
+import Home from './pages/Home';
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
-      <h1 className='head-text'>ThreeJS</h1>
-    </div>
+    <main className='app transition-all ease-in'>
+      <Home />
+      <Canvas />
+      <Customizer />
+    </main>
   )
 }
 

@@ -19,6 +19,7 @@ html {
 
 .app {
   @apply relative w-full h-screen overflow-hidden;
+  @apply relative w-full h-screen overflow-hidden bg-white; /* Added bg-white */
 }
 
 .home {
